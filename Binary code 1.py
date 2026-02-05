@@ -1,3 +1,9 @@
+"""
+Project:  Binary Decode / code Visualization
+Copyright (c) 2026 Ruhani Kashni (MathRize)
+License: MIT License (See LICENSE file for details)
+YouTube: https://www.youtube.com/@MathRize
+"""
 from manim import *
 import numpy as np
 
@@ -109,4 +115,5 @@ class Scene2_TheLoneliness(ThreeDScene):
         
         # Final Dramatic Rotation
         self.begin_ambient_camera_rotation(rate=0.2)
+
         self.wait(3)
