@@ -1,3 +1,9 @@
+"""
+Project:  Binary Decode / code Visualization
+Copyright (c) 2026 Ruhani Kashni (MathRize)
+License: MIT License (See LICENSE file for details)
+YouTube: https://www.youtube.com/@MathRize
+"""
 from manim import *
 import numpy as np
 
@@ -136,4 +142,5 @@ class Scene2_2_Ultimate_Snake(ThreeDScene):
         self.wait(2)
         
         # Final Fade
+
         self.play(FadeOut(Group(living_snake, slots, slot_nums, eq_part1, eq_part2, eq_part3, title)))
