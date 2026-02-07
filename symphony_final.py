@@ -1,3 +1,9 @@
+"""
+Project:  Binary Decode / code Visualization
+Copyright (c) 2026 Ruhani Kashni (MathRize)
+License: MIT License (See LICENSE file for details)
+YouTube: https://www.youtube.com/@MathRize
+"""
 from manim import *
 import numpy as np
 import random
@@ -148,4 +154,5 @@ class SymphonyArchitectureFixed(ThreeDScene):
             run_time=1
         )
         
+
         self.wait(3)
