@@ -1,3 +1,9 @@
+"""
+Project:  Binary Decode / code Visualization
+Copyright (c) 2026 Ruhani Kashni (MathRize)
+License: MIT License (See LICENSE file for details)
+YouTube: https://www.youtube.com/@MathRize
+"""
 from manim import *
 
 class MeruPrastaar3D(ThreeDScene):
@@ -96,4 +102,5 @@ class MeruPrastaar3D(ThreeDScene):
         
         # --- 7. Final Hold ---
         # Scene ko thodi der chalne do taaki camera ghumta rahe
+
         self.wait(5)
