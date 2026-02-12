@@ -1,3 +1,9 @@
+"""
+Project:  Binary Decode / code Visualization
+Copyright (c) 2026 Ruhani Kashni (MathRize)
+License: MIT License (See LICENSE file for details)
+YouTube: https://www.youtube.com/@MathRize
+"""
 from manim import *
 
 class NashtamGravityVFX(ThreeDScene):
@@ -92,4 +98,5 @@ class NashtamGravityVFX(ThreeDScene):
         
         # Final Glow
         self.play(Indicate(result_chars, color=COLOR_GOLD, scale_factor=1.2))
+
         self.wait(3)
