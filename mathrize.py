@@ -1,3 +1,9 @@
+"""
+Project:  Binary Decode / code Visualization
+Copyright (c) 2026 Ruhani Kashni (MathRize)
+License: MIT License (See LICENSE file for details)
+YouTube: https://www.youtube.com/@MathRize
+"""
 from manim import *
 
 class PingalaCinematicLogic(ThreeDScene):
@@ -97,4 +103,5 @@ class PingalaCinematicLogic(ThreeDScene):
             run_time=1.5
         )
         self.play(final_group.animate.set_color(COLOR_GOLD))
+
         self.wait(2)
