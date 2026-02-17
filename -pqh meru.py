@@ -1,3 +1,9 @@
+"""
+Project:  Binary Decode / code Visualization
+Copyright (c) 2026 Ruhani Kashni (MathRize)
+License: MIT License (See LICENSE file for details)
+YouTube: https://www.youtube.com/@MathRize
+"""
 # --- FIX FOR ENCRYPT / DECRYPT TEXT ---
 
 # 1. Apne text ko ek group mein banayein aur uski original size choti karein (0.5)
@@ -20,4 +26,5 @@ self.play(
     run_time=2.5,
     rate_func=ease_in_out_sine # Smooth Sci-Fi feel ke liye
 )
+
 # ----------------------------------------
