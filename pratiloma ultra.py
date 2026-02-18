@@ -1,3 +1,9 @@
+"""
+Project:  Binary Decode / code Visualization
+Copyright (c) 2026 Ruhani Kashni (MathRize)
+License: MIT License (See LICENSE file for details)
+YouTube: https://www.youtube.com/@MathRize
+"""
 from manim import *
 
 class MathrizeUltaLogic(ThreeDScene):
@@ -119,4 +125,5 @@ class MathrizeUltaLogic(ThreeDScene):
         box_final = SurroundingRectangle(number_display, color=gold_color, stroke_width=6)
         final_glow = box_final.copy().set_stroke(opacity=0.5, width=15)
         self.play(Create(box_final), FadeIn(final_glow))
+
         self.wait(3)
