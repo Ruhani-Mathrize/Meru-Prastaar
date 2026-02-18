@@ -1,3 +1,9 @@
+"""
+Project:  Binary Decode / code Visualization
+Copyright (c) 2026 Ruhani Kashni (MathRize)
+License: MIT License (See LICENSE file for details)
+YouTube: https://www.youtube.com/@MathRize
+"""
 from manim import *
 
 class PingalaSciFiBlueprint(Scene):
@@ -49,4 +55,5 @@ class PingalaSciFiBlueprint(Scene):
         self.play(pyramid.animate.set_opacity(0.6), run_time=0.5)
         self.play(pyramid.animate.set_opacity(1), run_time=0.5)
             
+
         self.wait(3)
