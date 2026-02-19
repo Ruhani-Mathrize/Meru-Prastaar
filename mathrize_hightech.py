@@ -1,3 +1,9 @@
+"""
+Project:  Binary Decode / code Visualization
+Copyright (c) 2026 Ruhani Kashni (MathRize)
+License: MIT License (See LICENSE file for details)
+YouTube: https://www.youtube.com/@MathRize
+"""
 from manim import *
 import random
 
@@ -117,4 +123,5 @@ class ArchitectVsEngineerHighTech(ThreeDScene):
         self.play(Create(frame_box), Flash(frame_box, color=color_tech, line_length=1.5, num_lines=40), run_time=1)
         
         self.play(frame_box.animate.set_glow_factor(0.5), run_time=2)
+
         self.wait(2)
