@@ -1,3 +1,9 @@
+"""
+Project:  Binary Decode / code Visualization
+Copyright (c) 2026 Ruhani Kashni (MathRize)
+License: MIT License (See LICENSE file for details)
+YouTube: https://www.youtube.com/@MathRize
+"""
 from manim import *
 import math
 
@@ -169,4 +175,5 @@ class MeruSciFiHologram(ThreeDScene):
         # Slow cinematic drift to end the scene
         self.begin_ambient_camera_rotation(rate=0.05)
         self.play(table_22_4.animate.shift(UP*0.1), run_time=2, rate_func=there_and_back)
+
         self.wait(3)
