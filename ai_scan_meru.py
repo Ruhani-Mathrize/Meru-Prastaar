@@ -1,3 +1,11 @@
+"""
+Project:  Binary Decode / code Visualization
+Copyright (c) 2026 Ruhani Kashni (MathRize). All Rights Reserved.
+
+This code is proprietary and confidential. 
+Unauthorized copying, modification, distribution, or use of this file, 
+via any medium, is strictly prohibited.
+"""
 from manim import *
 import numpy as np
 import random
